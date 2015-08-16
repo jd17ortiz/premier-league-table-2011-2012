@@ -1,0 +1,45 @@
+{
+  "name": "realtime_league_table",
+  "version": "0.0.1",
+  "description": "Realtime League Table",
+  "author": "Jesus Ortiz <jd17ortiz@gmail.com>",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-inject": "^1.5.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^2.3.4",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-spec-reporter": "0.0.20",
+    "protractor": "^2.1.0",
+    "wiredep": "^2.2.2",
+    "ws": "^0.5.0"
+  },
+  "keywords":[
+    "angular",
+    "realtime",
+    "node",
+    "premier",
+    "websocket",
+    "premier",
+    "es6"
+  ],
+  "scripts": {
+    "start": "npm install; bower install; npm run backend & gulp serve",
+    "test": "./node_modules/.bin/gulp unit",
+    "backend": "./bin/serve"
+  },
+  "license": "MIT"
+}
